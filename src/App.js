@@ -1,7 +1,9 @@
+import { Layout } from "./components";
+
 const App = () =>{
   return (
     <div className="App">
-    <h1>Akash</h1>
+    <Layout/>
 
     </div>
   );
