@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headerMainSection{
+    @apply w-full h-[100px] bg-slate-400
+}
+
+/* image  */
+.imageSectionWrapper{
+    @apply h-16 w-16;
+}
+.imageWrapper{
+  @apply h-full w-full;
+  @apply p-[2px] bg-white rounded-[50%]
+}
+
+.imageLogo{
+    @apply h-full w-full;
+    @apply rounded-[50%]
+}
+
+/* menu  */
+.manuSectionContainer{
+    @apply w-96 h-[100px] bg-amber-600
+}
+.menuWrapper{
+    @apply flex justify-around;
+}
