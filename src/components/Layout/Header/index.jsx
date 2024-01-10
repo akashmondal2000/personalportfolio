@@ -15,14 +15,13 @@ const CustomHeader = () => {
       </section>
       {/* menu  */}
       <section className={styles.manuSectionContainer}>
-      <div className={styles.menuWrapper}>
-      <p>Home</p>
-      <p>About</p>
-      <p>Skills</p>
-      <p>Contact</p>
-      </div>
+        <div className={styles.menuWrapper}>
+          <p>Home</p>
+          <p>About</p>
+          <p>Skills</p>
+          <p>Contact</p>
+        </div>
       </section>
-      
     </section>
   );
 };
