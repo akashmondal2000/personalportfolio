@@ -1,9 +1,9 @@
-import { Layout } from "./components";
+import CustomRouter from "./router/router";
 
 const App = () =>{
   return (
     <div className="App">
-    <Layout/>
+    <CustomRouter/>
 
     </div>
   );
