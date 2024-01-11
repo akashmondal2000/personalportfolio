@@ -1,11 +1,14 @@
 import CustomHeader from "./Header";
+import CustomFooter from "./Footer";
 
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <div>
-        <CustomHeader/>
+      <CustomHeader />
+      {children}
+      <CustomFooter />
     </div>
-  )
-}
+  );
+};
 
 export default Layout;

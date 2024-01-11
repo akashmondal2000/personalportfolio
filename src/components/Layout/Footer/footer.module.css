@@ -1,0 +1,4 @@
+.footerMainSection{
+    @apply h-[320px] w-full;
+    @apply bg-[#6bb4b1]
+}
